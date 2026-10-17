@@ -24,8 +24,6 @@ src/orl/                 Core library code
 experiments/             Analysis and experiment scripts
 scripts/                 Utility and reproduction scripts
 results/benchmarks/      Raw run records and result JSON files
-docs/                    Research plans, gates, writing constraints
-paper/                   Manuscript, figures, references, submission package
 vendor/                  Third-party reference code and provenance notes
 ```
 
@@ -41,15 +39,13 @@ data.
 
 ## Environment
 
-The primary development environment is a Conda environment named
-`pytorch_env` with PyTorch and the packages listed in `requirements.txt`.
+The primary development environment is a Conda environment with PyTorch and the packages listed in `requirements.txt`.
 The experiments were developed for a single RTX 5060 Laptop GPU with 8 GB
 memory and 16 GB system RAM.
 
 ## Reproduction
 
-See `docs/REPRODUCE.md` for the full workflow. The main analysis scripts are
-listed in `paper/submission/supplementary_manifest.md`.
+See `REPRODUCE.md` for the full workflow. The main analysis scripts are
 
 Run:
 
@@ -60,14 +56,6 @@ python scripts/reproduce_all.py
 This script runs the deterministic analysis and figure-generation pipeline from
 the committed result records.
 
-## Paper Artifacts
-
-- Markdown manuscript: `paper/manuscript_v1.md`
-- C&IS template source: `paper/submission/manuscript_cis.tex`
-- Compile-checked fallback: `paper/submission/manuscript_compile.tex`
-- Verified references: `paper/references_verified.md`
-- Figures: `paper/figures/`
-- Submission package: `paper/submission/`
 
 ## Result Mapping
 
