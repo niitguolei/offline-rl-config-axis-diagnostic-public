@@ -1,0 +1,49 @@
+{
+  "alpha": 0.05,
+  "power": 0.8,
+  "note": "MDE uses t quantiles, not the exact noncentral t; conservative for small n",
+  "cells": [
+    {
+      "cell": "IQL halfcheetah",
+      "n_seeds": 5,
+      "sem": 0.08313261093631423,
+      "mde": 0.3090379728205879,
+      "observed": 0.0959144142443931
+    },
+    {
+      "cell": "IQL hopper",
+      "n_seeds": 5,
+      "sem": 0.0673198116922762,
+      "mde": 0.25025531980443216,
+      "observed": -0.05743592168272369
+    },
+    {
+      "cell": "IQL walker2d",
+      "n_seeds": 5,
+      "sem": 0.08855105107407192,
+      "mde": 0.32918053465237185,
+      "observed": -0.09213902155012364
+    },
+    {
+      "cell": "CQL halfcheetah",
+      "n_seeds": 3,
+      "sem": 0.29324340122926523,
+      "mde": 1.5727561171012465,
+      "observed": -0.31236349045698075
+    },
+    {
+      "cell": "CQL hopper",
+      "n_seeds": 5,
+      "sem": 0.021295644619489625,
+      "mde": 0.07916463550214242,
+      "observed": 0.346787134943647
+    },
+    {
+      "cell": "CQL walker2d",
+      "n_seeds": 3,
+      "sem": 0.04686364025390244,
+      "mde": 0.251344366386382,
+      "observed": 0.4478668696765542
+    }
+  ]
+}

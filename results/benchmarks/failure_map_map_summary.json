@@ -1,0 +1,56 @@
+{
+  "action": {
+    "critic_mean": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "fqe": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    }
+  },
+  "ball": {
+    "critic_mean": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "fqe": {
+      "spearman": -0.9999999999999999,
+      "oracle_gap": 0.035402517196000516
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    }
+  },
+  "none": {
+    "critic_mean": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "fqe": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    }
+  }
+}

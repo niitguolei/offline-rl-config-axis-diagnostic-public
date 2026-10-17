@@ -1,0 +1,82 @@
+{
+  "action": {
+    "critic_mean": {
+      "spearman": 0.19999999999999998,
+      "oracle_gap": 0.028733767516366138,
+      "rel_bias_vs_mc_det": 0.8415501563709167
+    },
+    "fqe": {
+      "spearman": -0.39999999999999997,
+      "oracle_gap": 0.0034890224733080677,
+      "rel_bias_vs_mc_det": 0.7135546205052251
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0034890224733080677
+    },
+    "wis_clip0.5": {
+      "spearman": -0.10540925533894598,
+      "oracle_gap": 0.028733767516366138
+    }
+  },
+  "ball": {
+    "critic_mean": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.8772407929927382
+    },
+    "fqe": {
+      "spearman": -1.0,
+      "oracle_gap": 0.208190711432642,
+      "rel_bias_vs_mc_det": 0.7378787085744208
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.035402517196000516
+    }
+  },
+  "none": {
+    "critic_mean": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.008561924736821713,
+      "rel_bias_vs_mc_det": 0.6801497131240398
+    },
+    "fqe": {
+      "spearman": 0.19999999999999998,
+      "oracle_gap": 0.022048156135940244,
+      "rel_bias_vs_mc_det": 0.4152921432028776
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.008561924736821713
+    },
+    "wis_clip0.5": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.008561924736821713
+    }
+  },
+  "sub": {
+    "critic_mean": {
+      "spearman": 1.0,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.7367087022048995
+    },
+    "fqe": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.43961159888955126
+    },
+    "pdis_clip2.0": {
+      "spearman": 1.0,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": 0.7745966692414834,
+      "oracle_gap": 0.0
+    }
+  }
+}

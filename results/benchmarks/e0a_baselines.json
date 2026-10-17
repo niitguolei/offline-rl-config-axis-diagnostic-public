@@ -1,0 +1,198 @@
+{
+  "action": {
+    "n_checkpoints": 4,
+    "true_scores": [
+      14.514604417584618,
+      36.94699575364846,
+      36.81808685514276,
+      35.88536936723496
+    ],
+    "steps": [
+      10000.0,
+      20000.0,
+      30000.0,
+      40000.0
+    ],
+    "random_expected_gap": 0.1598433522071298,
+    "triviality": {
+      "last_gap": 0.028733767516366138,
+      "random_expected_gap": 0.1598433522071298,
+      "naive_step_spearman": 0.19999999999999998,
+      "gap_leg": false,
+      "peak_size": 0.9327174879078015,
+      "peak_relative": 0.02524474504305799,
+      "min_rel_effect": 0.02,
+      "monotonicity_leg": "cannot_evaluate_without_per_episode_returns",
+      "gap_threshold": 0.05,
+      "trivial": true,
+      "verdict": "TRIVIAL: a free rule is within the noise"
+    },
+    "critic": {
+      "spearman": 0.19999999999999998,
+      "oracle_gap": 0.028733767516366138,
+      "rel_bias_vs_mc_det": 0.8415501563709167
+    },
+    "fqe": {
+      "spearman": -0.39999999999999997,
+      "oracle_gap": 0.0034890224733080677,
+      "rel_bias_vs_mc_det": 0.7135546205052251
+    },
+    "pdis": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0034890224733080677,
+      "rel_bias_vs_mc_det": 5.082417700647442
+    },
+    "wis": {
+      "spearman": -0.10540925533894598,
+      "oracle_gap": 0.028733767516366138,
+      "rel_bias_vs_mc_det": 0.6735642043217892
+    }
+  },
+  "ball": {
+    "n_checkpoints": 4,
+    "true_scores": [
+      33.73824211529671,
+      41.100583042577725,
+      40.034686634265654,
+      42.609050692421434
+    ],
+    "steps": [
+      10000.0,
+      20000.0,
+      30000.0,
+      40000.0
+    ],
+    "random_expected_gap": 0.07600286837315168,
+    "triviality": {
+      "last_gap": 0.0,
+      "random_expected_gap": 0.07600286837315168,
+      "naive_step_spearman": 0.7999999999999999,
+      "gap_leg": false,
+      "peak_size": 1.0658964083120708,
+      "peak_relative": 0.025015727667963606,
+      "min_rel_effect": 0.02,
+      "monotonicity_leg": "cannot_evaluate_without_per_episode_returns",
+      "gap_threshold": 0.05,
+      "trivial": true,
+      "verdict": "TRIVIAL: a free rule is within the noise"
+    },
+    "critic": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.8772407929927382
+    },
+    "fqe": {
+      "spearman": -1.0,
+      "oracle_gap": 0.208190711432642,
+      "rel_bias_vs_mc_det": 0.7378787085744208
+    },
+    "pdis": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.6418417203911881
+    },
+    "wis": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.035402517196000516,
+      "rel_bias_vs_mc_det": 0.9236189631459374
+    }
+  },
+  "none": {
+    "n_checkpoints": 4,
+    "true_scores": [
+      33.08506563755336,
+      41.74629631259518,
+      42.68747645860375,
+      42.32198949796033
+    ],
+    "steps": [
+      10000.0,
+      20000.0,
+      30000.0,
+      40000.0
+    ],
+    "random_expected_gap": 0.06388921782645937,
+    "triviality": {
+      "last_gap": 0.008561924736821713,
+      "random_expected_gap": 0.06388921782645937,
+      "naive_step_spearman": 0.7999999999999999,
+      "gap_leg": false,
+      "peak_size": 0.3654869606434161,
+      "peak_relative": 0.008561924736821764,
+      "min_rel_effect": 0.02,
+      "monotonicity_leg": "cannot_evaluate_without_per_episode_returns",
+      "gap_threshold": 0.05,
+      "trivial": true,
+      "verdict": "TRIVIAL: a free rule is within the noise"
+    },
+    "critic": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.008561924736821713,
+      "rel_bias_vs_mc_det": 0.6801497131240398
+    },
+    "fqe": {
+      "spearman": 0.19999999999999998,
+      "oracle_gap": 0.022048156135940244,
+      "rel_bias_vs_mc_det": 0.4152921432028776
+    },
+    "pdis": {
+      "spearman": 0.7999999999999999,
+      "oracle_gap": 0.008561924736821713,
+      "rel_bias_vs_mc_det": 7.794285111633048
+    },
+    "wis": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.008561924736821713,
+      "rel_bias_vs_mc_det": 0.9543781910118754
+    }
+  },
+  "sub": {
+    "n_checkpoints": 4,
+    "true_scores": [
+      16.4455742213472,
+      36.77954549605001,
+      40.69131936729124,
+      42.50952146249913
+    ],
+    "steps": [
+      10000.0,
+      20000.0,
+      30000.0,
+      40000.0
+    ],
+    "random_expected_gap": 0.19767409833383293,
+    "triviality": {
+      "last_gap": 0.0,
+      "random_expected_gap": 0.19767409833383293,
+      "naive_step_spearman": 1.0,
+      "gap_leg": false,
+      "peak_size": -1.8182020952078872,
+      "peak_relative": -0.04277164344961778,
+      "min_rel_effect": 0.02,
+      "monotonicity_leg": "cannot_evaluate_without_per_episode_returns",
+      "gap_threshold": 0.05,
+      "trivial": true,
+      "verdict": "TRIVIAL: a free rule is within the noise"
+    },
+    "critic": {
+      "spearman": 1.0,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.7367087022048995
+    },
+    "fqe": {
+      "spearman": 0.39999999999999997,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 0.43961159888955126
+    },
+    "pdis": {
+      "spearman": 1.0,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 1.1484982811252152e+37
+    },
+    "wis": {
+      "spearman": 0.7745966692414834,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 1.1112620829117128
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Experiment records land here as YYYY-MM.jsonl (append-only).
+# Deliberately NOT gitignored: these are the primary scientific record.
+

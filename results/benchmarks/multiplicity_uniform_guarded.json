@@ -1,0 +1,183 @@
+{
+  "family_size": 19,
+  "gate": "20x critic/FQE divergence flag",
+  "survivors": [
+    "CQL pooled hopper critic_mean",
+    "CQL along lr walker2d",
+    "CQL along lr hopper",
+    "CQL pooled walker2d critic_mean"
+  ],
+  "rows": [
+    {
+      "test": "CQL pooled hopper critic_mean",
+      "beats": 0.346787134943647,
+      "p": 8.321900240000817e-05,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 0.0015811610456001554,
+      "survives": true
+    },
+    {
+      "test": "CQL along lr walker2d",
+      "beats": 0.5846183589826558,
+      "p": 0.00010605026109950393,
+      "n": 3,
+      "excluded": 1,
+      "p_times_family": 0.002014954960890575,
+      "survives": true
+    },
+    {
+      "test": "CQL along lr hopper",
+      "beats": 0.16747539306254863,
+      "p": 0.0007654632328028048,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 0.01454380142325329,
+      "survives": true
+    },
+    {
+      "test": "CQL pooled walker2d critic_mean",
+      "beats": 0.42188140409978364,
+      "p": 0.0024444526636621102,
+      "n": 3,
+      "excluded": 1,
+      "p_times_family": 0.0464446006095801,
+      "survives": true
+    },
+    {
+      "test": "IQL along tau hopper",
+      "beats": -0.14934498823736148,
+      "p": 0.003780315058364481,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 0.07182598610892514,
+      "survives": false
+    },
+    {
+      "test": "CQL along min_q_weight hopper",
+      "beats": 0.20231617485095676,
+      "p": 0.012007201242935502,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 0.22813682361577453,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled walker2d fqe",
+      "beats": 0.3033303559015726,
+      "p": 0.14360060763912524,
+      "n": 3,
+      "excluded": 1,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled halfcheetah fqe",
+      "beats": 0.10709889459899943,
+      "p": 0.2712509792061301,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled halfcheetah critic_mean",
+      "beats": 0.0959144142443931,
+      "p": 0.31284673900348586,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr hopper",
+      "beats": 0.014507559106772283,
+      "p": 0.34172341296871694,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled hopper fqe",
+      "beats": 0.07232745227689782,
+      "p": 0.3498983432010196,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled walker2d critic_mean",
+      "beats": -0.09213902155012364,
+      "p": 0.3568557298196591,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled hopper critic_mean",
+      "beats": -0.05743592168272369,
+      "p": 0.44163701826483287,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr halfcheetah",
+      "beats": 0.03921235144351866,
+      "p": 0.4778092018028501,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along tau walker2d",
+      "beats": -0.06670988542323203,
+      "p": 0.5440371161385436,
+      "n": 3,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along tau halfcheetah",
+      "beats": -0.013656569191420538,
+      "p": 0.5918150960698236,
+      "n": 3,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled walker2d fqe",
+      "beats": 0.07501403444697471,
+      "p": 0.6308751430257841,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr walker2d",
+      "beats": -0.034271990361584743,
+      "p": 0.645459520959659,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled hopper fqe",
+      "beats": -0.032389918671611784,
+      "p": 0.8419951796100797,
+      "n": 5,
+      "excluded": 0,
+      "p_times_family": 1.0,
+      "survives": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "bc_steps": 250000,
+  "eval_episodes": 20,
+  "device": "cuda",
+  "bc": [
+    {
+      "env_id": "halfcheetah_expert-v2",
+      "domain": "halfcheetah",
+      "data_expert_return": 10656.426459624243,
+      "bc_return": 10952.350128662425,
+      "bc_score": 90.47416170306751,
+      "ratio": 1.027769503234447,
+      "bc_steps": 250000,
+      "train_s": 476.7538693000097
+    },
+    {
+      "env_id": "walker2d_expert-v2",
+      "domain": "walker2d",
+      "data_expert_return": 4920.507113370215,
+      "bc_return": 4844.02621199779,
+      "bc_score": 105.48342959964813,
+      "ratio": 0.984456703422985,
+      "bc_steps": 250000,
+      "train_s": 474.84393249999266
+    },
+    {
+      "env_id": "hopper_expert-v2",
+      "domain": "hopper",
+      "data_expert_return": 3511.357706981485,
+      "bc_return": 3280.894694908498,
+      "bc_score": 101.43166875834699,
+      "ratio": 0.934366410002955,
+      "bc_steps": 250000,
+      "train_s": 478.9670027999964
+    }
+  ],
+  "bc_min_ratio": 0.934366410002955,
+  "bc_pass": true,
+  "part2_pass": false,
+  "overall_pass": false
+}

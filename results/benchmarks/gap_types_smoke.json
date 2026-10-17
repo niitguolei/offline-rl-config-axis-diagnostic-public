@@ -1,0 +1,70 @@
+{
+  "env": "halfcheetah_medium_replay-v2",
+  "probe": 200,
+  "rows": [
+    {
+      "name": "base",
+      "n": 202000,
+      "n_episodes": 202,
+      "mean_fragment_len": 0.0,
+      "state_hole_ratio": 1.0,
+      "action_support_ratio": 1.0
+    },
+    {
+      "name": "sub_ep_10pct",
+      "n": 20000,
+      "n_episodes": 20,
+      "mean_fragment_len": 1000.0,
+      "state_hole_ratio": 1.0897042751312256,
+      "action_support_ratio": 0.9793670784159167
+    },
+    {
+      "name": "sub_ep_1pct",
+      "n": 2000,
+      "n_episodes": 2,
+      "mean_fragment_len": 1000.0,
+      "state_hole_ratio": 1.5930218696594238,
+      "action_support_ratio": 0.958855325819332
+    },
+    {
+      "name": "state_gap_30pct",
+      "n": 141400,
+      "n_episodes": 26678,
+      "mean_fragment_len": 5.300247394857186,
+      "state_hole_ratio": 1.4441578388214111,
+      "action_support_ratio": 1.0249847669012846
+    },
+    {
+      "name": "action_gap_30pct",
+      "n": 60600,
+      "n_episodes": 44400,
+      "mean_fragment_len": 1.364864864864865,
+      "state_hole_ratio": 1.2517553567886353,
+      "action_support_ratio": 0.5761059030866781
+    }
+  ],
+  "checks": [
+    {
+      "label": "state_gap: hole \u2265 1.5",
+      "pass": false,
+      "value": 1.4441578388214111
+    },
+    {
+      "label": "state_gap: action support \u2265 0.70",
+      "pass": true,
+      "value": 1.0249847669012846
+    },
+    {
+      "label": "action_gap: action support \u2264 0.80",
+      "pass": true,
+      "value": 0.5761059030866781
+    },
+    {
+      "label": "action_gap: hole \u2264 1.5",
+      "pass": true,
+      "value": 1.2517553567886353
+    }
+  ],
+  "separable": false,
+  "elapsed_min": 0.012633746666688239
+}

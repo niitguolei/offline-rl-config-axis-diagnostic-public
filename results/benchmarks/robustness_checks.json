@@ -1,0 +1,43 @@
+{
+  "divergence_thresholds": [
+    10.0,
+    20.0,
+    50.0
+  ],
+  "walker2d_lr_axis_vs_exclusion": [
+    {
+      "exclusion": "none",
+      "mean": 0.5851753848762028,
+      "p": 0.000126042211171108,
+      "n_seeds": 3
+    },
+    {
+      "exclusion": "exclude ratio >= 10",
+      "mean": 0.4904681852168742,
+      "p": 0.0014747076724569315,
+      "n_seeds": 2
+    },
+    {
+      "exclusion": "exclude ratio >= 20",
+      "mean": 0.5846183589826558,
+      "p": 0.00010605026109950393,
+      "n_seeds": 3
+    },
+    {
+      "exclusion": "exclude ratio >= 50",
+      "mean": 0.5851753848762028,
+      "p": 0.000126042211171108,
+      "n_seeds": 3
+    }
+  ],
+  "trivial_control": {
+    "CQL": {
+      "same": 15,
+      "total": 15
+    },
+    "IQL": {
+      "same": 33,
+      "total": 33
+    }
+  }
+}

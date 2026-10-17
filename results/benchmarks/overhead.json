@@ -1,0 +1,25 @@
+{
+  "batch_size": 256,
+  "env_id": "halfcheetah_medium-v2",
+  "domain": "halfcheetah",
+  "s_points": [
+    10000,
+    30000
+  ],
+  "t_setup_s": 0.7189752999984194,
+  "t_sampling_s": {
+    "ram": {
+      "10000": 0.9916894000198226,
+      "30000": 1.9951387000037357
+    },
+    "stream": {
+      "200": 145.44506470000488
+    }
+  },
+  "stream_over_ram_ratio": 10934.958910355395,
+  "t_eval_s": 0.7904939000145532,
+  "eval_episodes": 10,
+  "t_dummy_step_s": 0.5239141999918502,
+  "device": "cuda",
+  "torch": "2.13.0+cu130"
+}

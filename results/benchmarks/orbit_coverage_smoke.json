@@ -1,0 +1,27 @@
+{
+  "queries": 256,
+  "seed": 0,
+  "k": 10,
+  "n_ref": 100000,
+  "rows": [
+    {
+      "env_id": "walker2d_medium_replay-v2",
+      "domain": "walker2d",
+      "obs_dim": 17,
+      "n_queries": 256,
+      "k": 10,
+      "n_ref": 100000,
+      "moved_dims": 12,
+      "flipped_dims": 2,
+      "d_self_median": 1.876440167427063,
+      "d_mirror_median": 3.2009516954421997,
+      "ratio_median": 1.7058639817070642,
+      "ratio_per_query_median": 1.8537949152138633,
+      "outside_support": 0.1875,
+      "mirror_farther": 0.95703125,
+      "support_threshold": 5.2516655921936035,
+      "d_self_vs_cache_max_abs": 0.0,
+      "d_self_vs_cache_med_abs": 0.0
+    }
+  ]
+}

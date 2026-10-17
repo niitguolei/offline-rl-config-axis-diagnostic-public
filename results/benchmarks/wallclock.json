@@ -1,0 +1,39 @@
+{
+  "device": "cuda",
+  "batch": 256,
+  "torch": "2.13.0+cu130",
+  "medium_runs": [
+    {
+      "env_id": "halfcheetah_medium-v2",
+      "steps": 50000,
+      "t_load_s": 0.7423216000024695,
+      "t_steps_s": 350.86216079999576,
+      "ms_per_step": 7.017243215999915,
+      "n_transitions": 1000000,
+      "peak_vram_gb": 0.06865310668945312
+    },
+    {
+      "env_id": "halfcheetah_medium-v2",
+      "steps": 150000,
+      "t_load_s": 0.7439033999980893,
+      "t_steps_s": 1061.1805950000125,
+      "ms_per_step": 7.074537300000084,
+      "n_transitions": 1000000,
+      "peak_vram_gb": 0.06865310668945312
+    }
+  ],
+  "b_ms_per_step": 7.103184342000168,
+  "a_s": -4.297056300012628,
+  "expert_run": {
+    "env_id": "halfcheetah_medium_expert-v2",
+    "steps": 50000,
+    "t_load_s": 1.4524968000187073,
+    "t_steps_s": 354.95917389998795,
+    "ms_per_step": 7.099183477999759,
+    "n_transitions": 2000000,
+    "peak_vram_gb": 0.06865310668945312
+  },
+  "scaling_ratio": 0.9994367506448125,
+  "criterion_pass": true,
+  "projected_1m_steps_min": 118.38640570000281
+}

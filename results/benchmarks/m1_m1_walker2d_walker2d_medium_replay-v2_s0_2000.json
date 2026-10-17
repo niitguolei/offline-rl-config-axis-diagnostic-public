@@ -1,0 +1,122 @@
+{
+  "env": "walker2d_medium_replay-v2",
+  "mode": "m1",
+  "seed": 0,
+  "steps": 2000,
+  "args": {
+    "env": "walker2d_medium_replay-v2",
+    "mode": "m1",
+    "sym_normer": "default",
+    "steps": 2000,
+    "every": 500,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "tau": 0.7,
+    "beta": 3.0,
+    "alpha": 0.005,
+    "discount": 0.99,
+    "fixed_n": 1,
+    "n_min": 1,
+    "n_max": 10,
+    "tie_policy": false,
+    "seed": 0,
+    "eval_episodes": 2,
+    "smoke": true,
+    "tag": null
+  },
+  "eval": {
+    "raw_mean": 253.4513122615138,
+    "raw_std": 2.8925961917362173,
+    "score_mean": 5.4855228070222335
+  },
+  "curve": [
+    {
+      "step": 500,
+      "V": 1.1787570714950562,
+      "Q": 1.1675686836242676,
+      "q_loss": 0.01860085502266884,
+      "v_loss": 0.0016337331617251039,
+      "actor_loss": 5.1552557945251465,
+      "ms_per_step": 11.452498999991803,
+      "eq_V": 1.9310617105361416e-08,
+      "eq_Q": 2.5699979033788622e-08,
+      "eq_pi": 0.2889114022254944
+    },
+    {
+      "step": 1000,
+      "V": 2.5087413787841797,
+      "Q": 2.4847958087921143,
+      "q_loss": 0.02293713018298149,
+      "v_loss": 0.006950946059077978,
+      "actor_loss": 4.986318111419678,
+      "ms_per_step": 11.069177199999103,
+      "eq_V": 2.469654702963453e-08,
+      "eq_Q": 2.6286533838515425e-08,
+      "eq_pi": 0.2926442325115204
+    },
+    {
+      "step": 1500,
+      "V": 3.821556568145752,
+      "Q": 3.8319599628448486,
+      "q_loss": 0.0381685234606266,
+      "v_loss": 0.011838519014418125,
+      "actor_loss": 4.898736953735352,
+      "ms_per_step": 11.232248533332799,
+      "eq_V": 2.3262266779511265e-08,
+      "eq_Q": 2.508440033466286e-08,
+      "eq_pi": 0.2895648181438446
+    },
+    {
+      "step": 2000,
+      "V": 5.215814590454102,
+      "Q": 5.174605369567871,
+      "q_loss": 0.10032260417938232,
+      "v_loss": 0.01563006266951561,
+      "actor_loss": 4.993157386779785,
+      "ms_per_step": 11.12660164999761,
+      "eq_V": 2.4553537869564934e-08,
+      "eq_Q": 2.6493150784290265e-08,
+      "eq_pi": 0.2877279818058014
+    }
+  ],
+  "train_min": 0.3708947966665922,
+  "ms_per_step": 11.12660164999761,
+  "boundary_frac": 0.003619205298013245,
+  "normaliser_symmetrised": true,
+  "data_asymmetry": {
+    "max_scale_asymmetry": 0.6441004225099624,
+    "mean_scale_asymmetry": 0.14710213920523801,
+    "max_offset_asymmetry": 0.742549239689394,
+    "mean_offset_asymmetry": 0.22263107273014507
+  },
+  "normaliser_commutation": {
+    "max_abs_residual_std": 0.0,
+    "mean_abs_residual_std": 0.0
+  },
+  "mirror": {
+    "domain": "walker2d",
+    "obs_dims_moved": 12,
+    "obs_dims_total": 17,
+    "act_dims_moved": 6,
+    "act_dims_total": 6,
+    "obs_dims_flipped": 2,
+    "tie_policy": false,
+    "n_ties": 8001
+  },
+  "n_policy": {
+    "edges": [
+      NaN,
+      NaN
+    ],
+    "n_min": 1,
+    "n_max": 10,
+    "fixed_n": 1,
+    "requested_n_hist": {
+      "1": 302000
+    }
+  },
+  "ret_range": [
+    -50.19683612603694,
+    4132.000586617971
+  ]
+}

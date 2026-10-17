@@ -1,0 +1,28 @@
+{
+  "env": "halfcheetah_medium_replay-v2",
+  "gap": "ball",
+  "fraction": 0.3,
+  "gap_seed": 0,
+  "characterisation": {
+    "empty_ball_ratio": 2.407545832882888,
+    "action_support_ratio": 1.0196345447912742,
+    "n": 141400,
+    "n_episodes": 23311,
+    "mean_fragment_len": 6.065805842735189
+  },
+  "rows": [
+    {
+      "step": 2000,
+      "raw": -32.967573094545486,
+      "score": 1.9912027111435102,
+      "std": 2.116914857549027
+    },
+    {
+      "step": 4000,
+      "raw": -24.46902345366094,
+      "score": 2.059655607980982,
+      "std": 3.673399130413859
+    }
+  ],
+  "elapsed_min": 0.759000199999961
+}

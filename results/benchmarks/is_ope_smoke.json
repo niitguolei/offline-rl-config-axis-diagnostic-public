@@ -1,0 +1,71 @@
+{
+  "env": "halfcheetah_medium_replay-v2",
+  "control": {
+    "value": 44.73264415947577,
+    "ess": 202.0,
+    "max_weight_share": 0.0049504950495049506,
+    "n_episodes": 202,
+    "mean_return_unweighted": 44.73264415947577
+  },
+  "control_empirical": 44.73264415947577,
+  "mc_truth_stochastic": 2.324415393127951,
+  "mc_sem": 1.9336456707746363,
+  "log_ratio_stats": {
+    "mean": -4.550439834594727,
+    "std": 4.354619026184082,
+    "min": -14.219829559326172,
+    "max": 188.9453125
+  },
+  "rows": [
+    {
+      "estimator": "wis",
+      "clip": null,
+      "value": 1.5035813863953806,
+      "rel_bias": 0.14150024469990527,
+      "ess": 1.0,
+      "max_weight_share": 1.0
+    },
+    {
+      "estimator": "wis",
+      "clip": 2.0,
+      "value": 37.29956073227551,
+      "rel_bias": 6.029223428015846,
+      "ess": 1.0,
+      "max_weight_share": 1.0
+    },
+    {
+      "estimator": "wis",
+      "clip": 0.5,
+      "value": 37.29956073227551,
+      "rel_bias": 6.029223428015846,
+      "ess": 1.0,
+      "max_weight_share": 1.0
+    },
+    {
+      "estimator": "pdis",
+      "clip": null,
+      "value": -1.9402140679125667e+141,
+      "rel_bias": 3.344656326711775e+140,
+      "ess": 2.5132465818341916,
+      "max_weight_share": 0.5411899401299235
+    },
+    {
+      "estimator": "pdis",
+      "clip": 2.0,
+      "value": -7.260165079075867e+31,
+      "rel_bias": 1.2515504070552522e+31,
+      "ess": 11.526432025559519,
+      "max_weight_share": 0.21507353190539483
+    },
+    {
+      "estimator": "pdis",
+      "clip": 0.5,
+      "value": -5.472372191964434e+28,
+      "rel_bias": 9.433600434444556e+27,
+      "ess": 27.353710793979854,
+      "max_weight_share": 0.1056980397279398
+    }
+  ],
+  "verdict": "IS NOT USABLE HERE: no configuration is both accurate and non-degenerate",
+  "elapsed_min": 0.20078734500008674
+}

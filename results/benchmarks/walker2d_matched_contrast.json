@@ -1,0 +1,44 @@
+{
+  "n_runs": 27,
+  "results": {
+    "critic_mean": {
+      "exact": 9,
+      "n": 9,
+      "range": [
+        1.0,
+        1.0
+      ]
+    },
+    "critic_mean_q": {
+      "exact": 9,
+      "n": 9,
+      "range": [
+        1.0,
+        1.0
+      ]
+    },
+    "fqe": {
+      "exact": 4,
+      "n": 9,
+      "range": [
+        -1.0,
+        0.5
+      ]
+    }
+  },
+  "hopper_baseline": {
+    "critic_mean": [
+      9,
+      9
+    ],
+    "critic_mean_q": [
+      9,
+      9
+    ],
+    "fqe": [
+      5,
+      9
+    ]
+  },
+  "verdict": "REPRODUCES: both critic functionals stay at every slice, FQE does not. The central figure now spans two domains."
+}

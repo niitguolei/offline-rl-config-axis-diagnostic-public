@@ -1,0 +1,1681 @@
+{
+  "n_runs": 117,
+  "axes": {
+    "tau": {
+      "within": [
+        "lr"
+      ],
+      "per_env": {
+        "halfcheetah_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.4658155899582606,
+            "fqe": 0.0028166573759607497
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.10136816611046369,
+              "mean_random_gap": 0.08771159691904316,
+              "beats_random_by": -0.013656569191420526,
+              "seed_gap_sem": 0.030038433941489362,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.0939069586680303,
+              "mean_random_gap": 0.08771159691904316,
+              "beats_random_by": -0.006195361748987133,
+              "seed_gap_sem": 0.051446977199112086,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                30.670642107978896,
+                26.734448584770675,
+                26.284668402429
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.09044661449059488,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.1430023437432012
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=0|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                24.655048394506633,
+                33.358063135293165,
+                29.302323812991677
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.1274929543654982,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.12158197872137466
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.26089688437511993
+              }
+            },
+            "seed=0|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                31.855178042874236,
+                25.781259661239286,
+                31.2630321275554
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.0697538538107458,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.01858868641455591
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.01858868641455591
+              }
+            },
+            "seed=1|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                29.042106270313024,
+                30.192538712991304,
+                29.191041527195416
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.023757852328244605,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.03317035362001408
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.03810320336471973
+              }
+            },
+            "seed=1|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                31.925238534403945,
+                30.820320808336888,
+                30.721718365973697
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.02410253872767613,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.037698079127373996
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=1|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                29.057326357524698,
+                25.688408053499792,
+                30.29842634578893
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.06437208117429279,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.040962523072975654
+              }
+            },
+            "seed=2|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                27.461115250820843,
+                15.28752150520552,
+                24.950071524674726
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.1782476462643847,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.09143997624317379
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.44330296254998025
+              }
+            },
+            "seed=2|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                23.334051666237663,
+                26.623431103015488,
+                19.56309017762799
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.12958159953311535,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.2651927506288929
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=2|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                23.871164465381607,
+                24.951785583552915,
+                19.920524343623015
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.08164923157683597,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.2016393264955867
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.043308368234921235
+              }
+            }
+          }
+        },
+        "hopper_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.9903087785517386,
+            "fqe": -0.3240542649503234
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.2635654181130443,
+              "mean_random_gap": 0.11494968727127869,
+              "beats_random_by": -0.1486157308417656,
+              "seed_gap_sem": 0.03914246329135788,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.11117097540929081,
+              "mean_random_gap": 0.11494968727127869,
+              "beats_random_by": 0.003778711861987874,
+              "seed_gap_sem": 0.04606055416217019,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                32.951721542894425,
+                33.928153437246024,
+                22.421065236571156
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.12264662068053263,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.33916046217954465
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.028779399862053245
+              }
+            },
+            "seed=0|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                32.99401064120981,
+                34.71142022614442,
+                24.851040202556593
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.11118136848615716,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.28406731730789425
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.04947678815057721
+              }
+            },
+            "seed=0|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                41.88522656660668,
+                28.548142214780647,
+                26.966642818676444
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.2248658251442075,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.3561777020402749
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=1|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                31.678150596950566,
+                31.170019952463473,
+                21.783923472870576
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.10945880754339705,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.3123360088146193
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.3123360088146193
+              }
+            },
+            "seed=1|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                37.73863863536376,
+                37.86028135178753,
+                31.72006014260745
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.05513133819072191,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.1621810771062897
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0032129374658760312
+              }
+            },
+            "seed=1|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                31.440588268700687,
+                27.097007093744654,
+                28.283799954438262
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.07951896897430855,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.1004048743389776
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.13815203258394804
+              }
+            },
+            "seed=2|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                29.98842350178395,
+                30.633829816240393,
+                28.20621801724062
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.03343817528845261,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.07924610842202906
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.02106841744332877
+              }
+            },
+            "seed=2|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                34.209261437441164,
+                37.18767479853472,
+                23.383551336621977
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.1504309955195834,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.37120157516427077
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.37120157516427077
+              }
+            },
+            "seed=2|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                35.78887557025655,
+                38.7456162858941,
+                24.51382302518315
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.14787508561414756,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.3673136376434988
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.07631161919894391
+              }
+            }
+          }
+        },
+        "walker2d_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.954520641844198,
+            "fqe": -0.06425557441189327
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.2932714933910928,
+              "mean_random_gap": 0.2265616079678608,
+              "beats_random_by": -0.06670988542323203,
+              "seed_gap_sem": 0.09271365144928555,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.1651884030614396,
+              "mean_random_gap": 0.2265616079678608,
+              "beats_random_by": 0.0613732049064212,
+              "seed_gap_sem": 0.081434502787885,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                27.564352268620457,
+                23.380773058782744,
+                12.6635668627005
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.23078557442328038,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.5405817361753559
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=0|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                30.772142219088995,
+                14.335388436683052,
+                7.946251340058406
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.42530507389765665,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.7417712655984972
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.5341439560944727
+              }
+            },
+            "seed=0|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                9.440162507089457,
+                25.606504684841607,
+                12.872026741641273
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.3762171692525848,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.4973141824678171
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.6313373252899372
+              }
+            },
+            "seed=1|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                11.046292818112619,
+                6.7453848348634,
+                7.649597829460197
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.23228314689370633,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.3074963740851462
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=1|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                11.566358437952706,
+                12.327097046610014,
+                13.265046947880721
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.0662552853263733,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.12805748193747668
+              }
+            },
+            "seed=1|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                8.08400054218374,
+                12.630429252735059,
+                13.31277608825216
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.14800625460334516,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.051255037341102594
+              }
+            },
+            "seed=2|lr=0.0001": {
+              "n_configs": 3,
+              "true_scores": [
+                32.986567832378505,
+                22.405757416741167,
+                30.013604941871254
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.13696254967595892,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.09012646922269651
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=2|lr=0.0003": {
+              "n_configs": 3,
+              "true_scores": [
+                7.278135246057171,
+                21.768860551513047,
+                21.451135881412426
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.22675279581912144,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.014595374404129613
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=2|lr=0.001": {
+              "n_configs": 3,
+              "true_scores": [
+                11.199808700860567,
+                13.051896684814908,
+                7.2104154049905524
+              ],
+              "axis_values": [
+                0.5,
+                0.7,
+                0.9
+              ],
+              "random_expected_gap": 0.19648662181872,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.4475580385661929
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.1419018268899671
+              }
+            }
+          }
+        }
+      }
+    },
+    "lr": {
+      "within": [
+        "tau"
+      ],
+      "per_env": {
+        "halfcheetah_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.1470232343857422,
+            "fqe": 0.003832108478602922
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.09232605387663553,
+              "mean_random_gap": 0.1154246186393343,
+              "beats_random_by": 0.023098564762698767,
+              "seed_gap_sem": 0.02468066725795588,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.09211436043241707,
+              "mean_random_gap": 0.1154246186393343,
+              "beats_random_by": 0.023310258206917234,
+              "seed_gap_sem": 0.028827105784843637,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                30.670642107978896,
+                24.655048394506633,
+                31.855178042874236
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.08773733814931572,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.2260269786807303
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.03718503576721688
+              }
+            },
+            "seed=0|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                26.284668402429,
+                29.302323812991677,
+                31.2630321275554
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.0739859142194762,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.1592412311388839
+              }
+            },
+            "seed=0|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                26.734448584770675,
+                33.358063135293165,
+                25.781259661239286
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.14189890629023746,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.2271355936741286
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=1|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                29.042106270313024,
+                31.925238534403945,
+                29.057326357524698
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.06004700048179342,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.08983212995538525
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=1|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                29.191041527195416,
+                30.721718365973697,
+                30.29842634578893
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.021200733150039713,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.013778266408873474
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=1|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                30.192538712991304,
+                30.820320808336888,
+                25.688408053499792
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.06229326084350473,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.16651068581508455
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.16651068581508455
+              }
+            },
+            "seed=2|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                27.461115250820843,
+                23.334051666237663,
+                23.871164465381607
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.0936720195027008,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.13072851385130568
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.13072851385130568
+              }
+            },
+            "seed=2|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                24.950071524674726,
+                19.56309017762799,
+                19.920524343623015
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.1391649788498184,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.20158447947043634
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.20158447947043634
+              }
+            },
+            "seed=2|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                15.28752150520552,
+                26.623431103015488,
+                24.951785583552915
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.1628584869087897,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.062788508100041
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.0
+              }
+            },
+            "seed=3|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                22.928574509983505,
+                21.237450992847837,
+                16.516497073433225
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.11780352866620165,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.0737561559441614
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.27965443005444357
+              }
+            },
+            "seed=3|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                21.900180052721005,
+                17.7274497821867,
+                22.802992521733895
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.08739138372389825,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.22258230952405111
+              }
+            },
+            "seed=4|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                11.759679242337983,
+                14.585683982719551,
+                14.704754089320625
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.06945928133108692,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.008097388496115632
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=4|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                6.818385693727965,
+                12.910613408716237,
+                23.183901978578866
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.38300721019448286,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            }
+          }
+        },
+        "hopper_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.08650470919444082,
+            "fqe": 0.16545620768710068
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.10144900673082652,
+              "mean_random_gap": 0.12059766084727791,
+              "beats_random_by": 0.01914865411645139,
+              "seed_gap_sem": 0.02779176881907746,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.15265816070001131,
+              "mean_random_gap": 0.12059766084727791,
+              "beats_random_by": -0.032060499852733404,
+              "seed_gap_sem": 0.037397937229655655,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                32.951721542894425,
+                32.99401064120981,
+                41.88522656660668
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.14185368295082848,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.21227570325441336
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=0|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                22.421065236571156,
+                24.851040202556593,
+                26.966642818676444
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.08233851778800545,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.07845257677587647
+              }
+            },
+            "seed=0|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                33.928153437246024,
+                34.71142022614442,
+                28.548142214780647
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.06670758264384387,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.17755764446427436
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.17755764446427436
+              }
+            },
+            "seed=1|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                31.678150596950566,
+                37.73863863536376,
+                31.440588268700687
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.10915901979123903,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.16688599786324454
+              }
+            },
+            "seed=1|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                21.783923472870576,
+                31.72006014260745,
+                28.283799954438262
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.14052513139199896,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.1083308219694542
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.31324457220654267
+              }
+            },
+            "seed=1|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                31.170019952463473,
+                37.86028135178753,
+                27.097007093744654
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.1536661908310839,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.28428933631088027
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.28428933631088027
+              }
+            },
+            "seed=2|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                29.98842350178395,
+                34.209261437441164,
+                35.78887557025655
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.06873705943252584,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.044137014858554924
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=2|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                28.20621801724062,
+                23.383551336621977,
+                24.51382302518315
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.10062865887079002,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.13090712798860693
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.13090712798860693
+              }
+            },
+            "seed=2|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                30.633829816240393,
+                37.18767479853472,
+                38.7456162858941
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.08318986665624839,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=3|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                34.65088385720675,
+                34.690113947525376,
+                43.38176663369199
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.13386987832749087,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.20035266796664597
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.20035266796664597
+              }
+            },
+            "seed=3|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                24.445747765924764,
+                25.271106575630963,
+                41.73267110964515
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.26956088982871035,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.41422997579766896
+              }
+            },
+            "seed=4|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                32.912935823266565,
+                35.34126895581609,
+                42.12242157944604
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.12654098680477396,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 1,
+                "gap": 0.16098677068791467
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.2186361897264072
+              }
+            },
+            "seed=4|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                21.616277903804935,
+                24.895127039929562,
+                26.93153951501636
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.09099212569707367,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            }
+          }
+        },
+        "walker2d_medium_replay-v2": {
+          "leak": {
+            "critic_mean": 0.212169021984677,
+            "fqe": -0.0685209700241306
+          },
+          "summary": {
+            "critic_mean": {
+              "mean_gap": 0.26459734750342234,
+              "mean_random_gap": 0.21620990418472366,
+              "beats_random_by": -0.04838744331869868,
+              "seed_gap_sem": 0.07915227873984448,
+              "useful": false
+            },
+            "fqe": {
+              "mean_gap": 0.19044464121608892,
+              "mean_random_gap": 0.21620990418472366,
+              "beats_random_by": 0.02576526296863474,
+              "seed_gap_sem": 0.07515173554503662,
+              "useful": false
+            }
+          },
+          "per_slice": {
+            "seed=0|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                27.564352268620457,
+                30.772142219088995,
+                9.440162507089457
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.2658223520021434,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.6932237463392
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.10424330966723006
+              }
+            },
+            "seed=0|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                12.6635668627005,
+                7.946251340058406,
+                12.872026741641273
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.1329558891171422,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.016194798466849014
+              }
+            },
+            "seed=0|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                23.380773058782744,
+                14.335388436683052,
+                25.606504684841607
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.175695564341082,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.4401661369593627
+              }
+            },
+            "seed=1|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                11.046292818112619,
+                11.566358437952706,
+                8.08400054218374
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.11534669092494709,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.3010764290636456
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.044963643711195656
+              }
+            },
+            "seed=1|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                7.649597829460197,
+                13.265046947880721,
+                13.31277608825216
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.14299315087264142,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=1|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                6.7453848348634,
+                12.327097046610014,
+                12.630429252735059
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.16331924804156706,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 2,
+                "gap": 0.0
+              }
+            },
+            "seed=2|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                32.986567832378505,
+                7.278135246057171,
+                11.199808700860567
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.4799447657926144,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.6604736583153337
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=2|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                30.013604941871254,
+                21.451135881412426,
+                7.2104154049905524
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.3483493419965919,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.7597617674066377
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.0
+              }
+            },
+            "seed=2|tau=0.7": {
+              "n_configs": 3,
+              "true_scores": [
+                22.405757416741167,
+                21.768860551513047,
+                13.051896684814908
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.1486337850777805,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.41747576562340305
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.028425589609938462
+              }
+            },
+            "seed=3|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                10.481872534469222,
+                8.964674267225337,
+                11.192159315737321
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.08749493721166257,
+              "oracle_index": 2,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.0
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.19902192112114703
+              }
+            },
+            "seed=3|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                14.788691967426276,
+                11.81268655512359,
+                10.938020858178525
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.153871542224896,
+              "oracle_index": 0,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.26037942488282795
+              },
+              "fqe": {
+                "picked": 1,
+                "gap": 0.20123520179186005
+              }
+            },
+            "seed=4|tau=0.5": {
+              "n_configs": 3,
+              "true_scores": [
+                6.381888720410476,
+                38.493541177790696,
+                31.251084540633652
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.3407853879760577,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.18814732070780915
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.8342088432203638
+              }
+            },
+            "seed=4|tau=0.9": {
+              "n_configs": 3,
+              "true_scores": [
+                7.266869249842883,
+                18.505871812693712,
+                15.559229862890408
+              ],
+              "axis_values": [
+                0.0001,
+                0.0003,
+                0.001
+              ],
+              "random_expected_gap": 0.255516098822281,
+              "oracle_index": 1,
+              "critic_mean": {
+                "picked": 2,
+                "gap": 0.15922740520563405
+              },
+              "fqe": {
+                "picked": 0,
+                "gap": 0.6073208912612089
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

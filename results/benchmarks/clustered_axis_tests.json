@@ -1,0 +1,55 @@
+{
+  "note": "clustered = one observation per seed, the correct treatment; slice-level p is reported only to show the inflation",
+  "confirmatory_family_size": 2,
+  "full_family_size": 22,
+  "cells": [
+    {
+      "cell": "S3-1 CQL/hopper along alpha",
+      "n_seeds": 5,
+      "mean": 0.20231617485095676,
+      "p_slice": 0.0013823396450985518,
+      "p_clustered": 0.012007201242935502,
+      "confirmatory": true
+    },
+    {
+      "cell": "S3-2 IQL/hopper along tau",
+      "n_seeds": 5,
+      "mean": -0.14934498823736148,
+      "p_slice": 2.33301905025411e-05,
+      "p_clustered": 0.003780315058364481,
+      "confirmatory": true
+    },
+    {
+      "cell": "S4-a IQL/walker2d along tau",
+      "n_seeds": 3,
+      "mean": -0.06670988542323203,
+      "p_slice": 0.34121436464637744,
+      "p_clustered": 0.5440371161385436,
+      "confirmatory": false
+    },
+    {
+      "cell": "S4-b IQL/halfcheetah along tau",
+      "n_seeds": 3,
+      "mean": -0.013656569191420538,
+      "p_slice": 0.6129497878453435,
+      "p_clustered": 0.5918150960698236,
+      "confirmatory": false
+    },
+    {
+      "cell": "CQL/walker2d along lr",
+      "n_seeds": 3,
+      "mean": 0.5851753848762028,
+      "p_slice": 9.682353771546188e-06,
+      "p_clustered": 0.000126042211171108,
+      "confirmatory": false
+    },
+    {
+      "cell": "CQL/hopper along lr",
+      "n_seeds": 5,
+      "mean": 0.16747539306254863,
+      "p_slice": 0.0004301940521962148,
+      "p_clustered": 0.0007654632328028048,
+      "confirmatory": false
+    }
+  ]
+}

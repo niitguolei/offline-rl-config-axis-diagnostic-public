@@ -1,0 +1,71 @@
+{
+  "env": "halfcheetah_medium_replay-v2",
+  "control": {
+    "value": 44.73264415947577,
+    "ess": 202.0,
+    "max_weight_share": 0.0049504950495049506,
+    "n_episodes": 202,
+    "mean_return_unweighted": 44.73264415947577
+  },
+  "control_empirical": 44.73264415947577,
+  "mc_truth_stochastic": 44.60433832648706,
+  "mc_sem": 1.2120301447360824,
+  "log_ratio_stats": {
+    "mean": -4.173389434814453,
+    "std": 4.307733535766602,
+    "min": -62.27320098876953,
+    "max": 330.047607421875
+  },
+  "rows": [
+    {
+      "estimator": "wis",
+      "clip": null,
+      "value": NaN,
+      "rel_bias": NaN,
+      "ess": 0.0,
+      "max_weight_share": 1.0
+    },
+    {
+      "estimator": "wis",
+      "clip": 2.0,
+      "value": NaN,
+      "rel_bias": NaN,
+      "ess": 0.0,
+      "max_weight_share": 1.0
+    },
+    {
+      "estimator": "wis",
+      "clip": 0.5,
+      "value": 4.449970982952216,
+      "rel_bias": 0.900234570225432,
+      "ess": 1.237100965098873,
+      "max_weight_share": 0.892645807272912
+    },
+    {
+      "estimator": "pdis",
+      "clip": null,
+      "value": 1.0324584621827208e+22,
+      "rel_bias": 2.314704131749498e+20,
+      "ess": 1.580546607865473,
+      "max_weight_share": 0.7769966030312834
+    },
+    {
+      "estimator": "pdis",
+      "clip": 2.0,
+      "value": 65.89575101583371,
+      "rel_bias": 0.47733950302101735,
+      "ess": 6.047422537206585,
+      "max_weight_share": 0.2726041235473463
+    },
+    {
+      "estimator": "pdis",
+      "clip": 0.5,
+      "value": 0.8864056105667217,
+      "rel_bias": 0.9801273677892369,
+      "ess": 709.9149520429012,
+      "max_weight_share": 0.010572477061072035
+    }
+  ],
+  "verdict": "IS NOT USABLE HERE: no configuration is both accurate and non-degenerate",
+  "elapsed_min": 3.94891386666665
+}

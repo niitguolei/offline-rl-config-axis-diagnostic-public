@@ -1,0 +1,51 @@
+{
+  "conditions": {
+    "walker2d_medium_replay-v2|ball": {
+      "n_seeds": 1,
+      "qualifying_pairs_per_seed": [
+        1
+      ],
+      "last_gap": 0.106885564391623,
+      "critic_rho": [
+        -0.9999999999999999
+      ],
+      "fqe_rho": [
+        -0.9999999999999999
+      ],
+      "pdis_rho": [
+        0.9999999999999999
+      ],
+      "fqe_gap": [
+        0.106885564391623
+      ]
+    },
+    "walker2d_medium_replay-v2|none": {
+      "n_seeds": 1,
+      "qualifying_pairs_per_seed": [
+        1
+      ],
+      "last_gap": 0.0,
+      "critic_rho": [
+        0.9999999999999999
+      ],
+      "fqe_rho": [
+        -0.9999999999999999
+      ],
+      "pdis_rho": [
+        0.9999999999999999
+      ],
+      "fqe_gap": [
+        0.45240880267351824
+      ]
+    }
+  },
+  "verdict": {
+    "walker2d_medium_replay-v2": {
+      "fqe_rho_none_mean": -0.9999999999999999,
+      "fqe_rho_ball_mean": -0.9999999999999999,
+      "difference": 0.0,
+      "seed_ranges_overlap": true,
+      "passes": false
+    }
+  }
+}

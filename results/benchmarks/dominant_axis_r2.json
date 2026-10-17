@@ -1,0 +1,34 @@
+{
+  "cells": [
+    {
+      "label": "IQL/hopper tau",
+      "r2": 0.98,
+      "source": "docs/GATES.md, Round 12 variance decomposition"
+    },
+    {
+      "label": "IQL/walker2d tau",
+      "r2": 0.94,
+      "source": "docs/GATES.md, Round 12 variance decomposition"
+    },
+    {
+      "label": "IQL/halfcheetah seed",
+      "r2": 0.73,
+      "source": "docs/GATES.md, Round 12 variance decomposition"
+    },
+    {
+      "label": "CQL/hopper alpha",
+      "r2": 0.80,
+      "source": "docs/GATES.md, Round 12 variance decomposition"
+    },
+    {
+      "label": "CQL/walker2d lr",
+      "r2": 0.72,
+      "source": "docs/GATES.md, Round 12 variance decomposition"
+    },
+    {
+      "label": "TD3+BC/hopper alpha",
+      "r2": 0.94,
+      "source": "docs/GATES.md, Round 11 TD3+BC"
+    }
+  ]
+}

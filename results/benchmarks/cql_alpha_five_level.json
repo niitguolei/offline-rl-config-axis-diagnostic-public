@@ -1,0 +1,108 @@
+{
+  "env": "hopper_medium_replay-v2",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_runs": 45,
+  "weights": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0
+  ],
+  "per_seed": {
+    "0": {
+      "seed": 0,
+      "n_runs": 15,
+      "weights": [
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "slice_corr_critic_alpha": [
+        -0.9999999999999999,
+        -0.9999999999999999,
+        -0.9999999999999999
+      ],
+      "exact_pm1": 3,
+      "alpha_r2": 0.7796176972021975,
+      "lr_r2": 0.2169481636947318,
+      "direction_negative": true,
+      "selected_index": 0,
+      "selected_true_rank": 4,
+      "selected_gap": 0.06083720460049502,
+      "random_expected_gap": 0.5643024722504361,
+      "Q1_order_equals_axis": true,
+      "Q2_axis_dominant": true,
+      "Q3_direction_negative": true,
+      "verdict": "REPRODUCES_CQL_ALPHA_FIVE_LEVEL"
+    },
+    "1": {
+      "seed": 1,
+      "n_runs": 15,
+      "weights": [
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "slice_corr_critic_alpha": [
+        -0.9999999999999999,
+        -0.9999999999999999,
+        -0.9999999999999999
+      ],
+      "exact_pm1": 3,
+      "alpha_r2": 0.8438340911118305,
+      "lr_r2": 0.1491112880621066,
+      "direction_negative": true,
+      "selected_index": 0,
+      "selected_true_rank": 3,
+      "selected_gap": 0.09907438277589597,
+      "random_expected_gap": 0.48535323640958505,
+      "Q1_order_equals_axis": true,
+      "Q2_axis_dominant": true,
+      "Q3_direction_negative": true,
+      "verdict": "REPRODUCES_CQL_ALPHA_FIVE_LEVEL"
+    },
+    "2": {
+      "seed": 2,
+      "n_runs": 15,
+      "weights": [
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      "slice_corr_critic_alpha": [
+        -0.9999999999999999,
+        -0.9999999999999999,
+        -0.9999999999999999
+      ],
+      "exact_pm1": 3,
+      "alpha_r2": 0.7857425800679445,
+      "lr_r2": 0.20825146243874304,
+      "direction_negative": true,
+      "selected_index": 0,
+      "selected_true_rank": 2,
+      "selected_gap": 0.07335690880467105,
+      "random_expected_gap": 0.5169491659989135,
+      "Q1_order_equals_axis": true,
+      "Q2_axis_dominant": true,
+      "Q3_direction_negative": true,
+      "verdict": "REPRODUCES_CQL_ALPHA_FIVE_LEVEL"
+    }
+  },
+  "passing_seeds": [
+    "0",
+    "1",
+    "2"
+  ],
+  "verdict": "REPRODUCES_CQL_ALPHA_FIVE_LEVEL_MULTISEED"
+}

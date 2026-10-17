@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated paper."
+title: "When Free Value Estimates Rank the Configuration Axis"
+authors:
+  - family-names: "<Family Name>"
+    given-names: "<Given Name>"
+version: "1.0.0"
+date-released: "2026-10-17"
+license: MIT
+repository-code: "https://github.com/<user>/<repository>"
+doi: "<Zenodo DOI>"
+abstract: >-
+  Analysis code, raw run records, and result files for a diagnostic study of
+  model-selection signals in offline reinforcement learning.

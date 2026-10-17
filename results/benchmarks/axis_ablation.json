@@ -1,0 +1,44 @@
+{
+  "IQL|halfcheetah_medium_replay-v2": {
+    "plain": 0.0959144142443931,
+    "plain_p": 0.31284673900348586,
+    "residual": 0.024392147862875864,
+    "residual_p": 0.5318175976121757,
+    "n_seeds": 5
+  },
+  "IQL|hopper_medium_replay-v2": {
+    "plain": -0.05743592168272369,
+    "plain_p": 0.44163701826483287,
+    "residual": -0.05743592168272369,
+    "residual_p": 0.44163701826483287,
+    "n_seeds": 5
+  },
+  "IQL|walker2d_medium_replay-v2": {
+    "plain": -0.09213902155012364,
+    "plain_p": 0.3568557298196591,
+    "residual": 0.027020248359460607,
+    "residual_p": 0.8621665457334496,
+    "n_seeds": 5
+  },
+  "CQL|halfcheetah_medium_replay-v2": {
+    "plain": -0.31236349045698075,
+    "plain_p": 0.39835943985658145,
+    "residual": 0.35929189911892406,
+    "residual_p": 0.24984736945245054,
+    "n_seeds": 3
+  },
+  "CQL|hopper_medium_replay-v2": {
+    "plain": 0.346787134943647,
+    "plain_p": 8.321900240000817e-05,
+    "residual": 0.030597185596284958,
+    "residual_p": 0.8787598030179783,
+    "n_seeds": 5
+  },
+  "CQL|walker2d_medium_replay-v2": {
+    "plain": 0.4478668696765542,
+    "plain_p": 0.010772391808553838,
+    "residual": 0.6304324838494177,
+    "residual_p": 0.00021047475630922634,
+    "n_seeds": 3
+  }
+}

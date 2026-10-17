@@ -1,0 +1,15 @@
+# Core environment for reproducing the analysis and figures.
+# Exact versions were read from the development environment on 2026-10-17.
+torch==2.13.0+cu130
+numpy==2.4.4
+scipy==1.18.0
+matplotlib==3.11.1
+
+# The following packages are required for the full training pipeline.
+# Install versions compatible with the local MuJoCo and D4RL setup.
+gym
+mujoco
+d4rl
+pandas
+tqdm
+pytest

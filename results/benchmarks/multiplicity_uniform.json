@@ -1,0 +1,164 @@
+{
+  "family_size": 22,
+  "survivors": [
+    "CQL pooled hopper critic_mean",
+    "CQL along lr walker2d",
+    "CQL along lr hopper"
+  ],
+  "rows": [
+    {
+      "test": "CQL pooled hopper critic_mean",
+      "beats": 0.346787134943647,
+      "raw_p": 8.321900240000817e-05,
+      "p_times_22": 0.00183081805280018,
+      "survives": true
+    },
+    {
+      "test": "CQL along lr walker2d",
+      "beats": 0.5851753848762028,
+      "raw_p": 0.000126042211171108,
+      "p_times_22": 0.002772928645764376,
+      "survives": true
+    },
+    {
+      "test": "CQL along lr hopper",
+      "beats": 0.16747539306254863,
+      "raw_p": 0.0007654632328028048,
+      "p_times_22": 0.016840191121661706,
+      "survives": true
+    },
+    {
+      "test": "IQL along tau hopper",
+      "beats": -0.14934498823736148,
+      "raw_p": 0.003780315058364481,
+      "p_times_22": 0.08316693128401859,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled walker2d critic_mean",
+      "beats": 0.4478668696765542,
+      "raw_p": 0.010772391808553838,
+      "p_times_22": 0.23699261978818442,
+      "survives": false
+    },
+    {
+      "test": "CQL along min_q_weight hopper",
+      "beats": 0.20231617485095676,
+      "raw_p": 0.012007201242935502,
+      "p_times_22": 0.26415842734458106,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled walker2d fqe",
+      "beats": 0.3293158214783431,
+      "raw_p": 0.15413181371920495,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled halfcheetah fqe",
+      "beats": 0.10709889459899943,
+      "raw_p": 0.2712509792061301,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled halfcheetah critic_mean",
+      "beats": 0.0959144142443931,
+      "raw_p": 0.31284673900348586,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr hopper",
+      "beats": 0.014507559106772283,
+      "raw_p": 0.34172341296871694,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled hopper fqe",
+      "beats": 0.07232745227689782,
+      "raw_p": 0.3498983432010196,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled walker2d critic_mean",
+      "beats": -0.09213902155012364,
+      "raw_p": 0.3568557298196591,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled halfcheetah critic_mean",
+      "beats": -0.31236349045698075,
+      "raw_p": 0.39835943985658145,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "CQL along lr halfcheetah",
+      "beats": -1.7483132865487034,
+      "raw_p": 0.41184946687858126,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled hopper critic_mean",
+      "beats": -0.05743592168272369,
+      "raw_p": 0.44163701826483287,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr halfcheetah",
+      "beats": 0.03921235144351866,
+      "raw_p": 0.4778092018028501,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along tau walker2d",
+      "beats": -0.06670988542323203,
+      "raw_p": 0.5440371161385436,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along tau halfcheetah",
+      "beats": -0.013656569191420538,
+      "raw_p": 0.5918150960698236,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL pooled walker2d fqe",
+      "beats": 0.07501403444697471,
+      "raw_p": 0.6308751430257841,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "IQL along lr walker2d",
+      "beats": -0.034271990361584743,
+      "raw_p": 0.645459520959659,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled hopper fqe",
+      "beats": -0.032389918671611784,
+      "raw_p": 0.8419951796100797,
+      "p_times_22": 1.0,
+      "survives": false
+    },
+    {
+      "test": "CQL pooled halfcheetah fqe",
+      "beats": -0.008998226421359288,
+      "raw_p": 0.9531975943609138,
+      "p_times_22": 1.0,
+      "survives": false
+    }
+  ]
+}

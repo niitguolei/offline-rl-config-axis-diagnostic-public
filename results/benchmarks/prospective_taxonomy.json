@@ -1,0 +1,100 @@
+{
+  "env": "walker2d_medium_replay-v2",
+  "seed": 0,
+  "n_runs": 9,
+  "alphas": [
+    0.5,
+    2.5,
+    10.0
+  ],
+  "alpha_r2": 0.2819287105977377,
+  "lr_r2": 0.23977733685180336,
+  "diverged_runs": 1,
+  "sensitivity_excluding_diverged": {
+    "n_runs": 8,
+    "alpha_r2": 0.8169422755999366,
+    "lr_r2": 0.14216948267383633
+  },
+  "exact_pm1": 3,
+  "slices": [
+    {
+      "lr": 0.0001,
+      "alpha": [
+        0.5,
+        2.5,
+        10.0
+      ],
+      "true": [
+        44.03437416820324,
+        20.73705027821432,
+        -0.24590615523098114
+      ],
+      "critic": [
+        18.8619384765625,
+        35.97517013549805,
+        289.03814697265625
+      ],
+      "corr_critic_alpha": 1.0,
+      "corr_alpha_truth": -1.0,
+      "aligned": false,
+      "selected_index": 2,
+      "selected_gap": 1.0055844135377436,
+      "random_expected_gap": 0.511551906814807,
+      "direction_ok": true
+    },
+    {
+      "lr": 0.0003,
+      "alpha": [
+        0.5,
+        2.5,
+        10.0
+      ],
+      "true": [
+        42.60500413232139,
+        43.24702485415231,
+        7.186656286819667
+      ],
+      "critic": [
+        20.538854598999023,
+        36.25764465332031,
+        137.38558959960938
+      ],
+      "corr_critic_alpha": 1.0,
+      "corr_alpha_truth": -0.5,
+      "aligned": false,
+      "selected_index": 2,
+      "selected_gap": 0.8338231054955529,
+      "random_expected_gap": 0.2828895121528776,
+      "direction_ok": true
+    },
+    {
+      "lr": 0.001,
+      "alpha": [
+        0.5,
+        2.5,
+        10.0
+      ],
+      "true": [
+        33.71677847894764,
+        23.95879195527311,
+        -0.28449656509688
+      ],
+      "critic": [
+        22.816003799438477,
+        38.71490478515625,
+        6681.9716796875
+      ],
+      "corr_critic_alpha": 1.0,
+      "corr_alpha_truth": -1.0,
+      "aligned": false,
+      "selected_index": 2,
+      "selected_gap": 1.0084378335633257,
+      "random_expected_gap": 0.4326160796079794,
+      "direction_ok": true
+    }
+  ],
+  "P1_axis_dependence": false,
+  "P2_order_equals_axis": true,
+  "P3_direction_predicts": true,
+  "verdict": "FAIL"
+}

@@ -1,0 +1,52 @@
+{
+  "walker2d_medium_replay-v2": {
+    "per_seed": {
+      "0": {
+        "n_configs": 6,
+        "true_scores": [
+          5.719618077062659,
+          5.691593066744564,
+          1.454127354236608,
+          1.1894278868546404,
+          4.319373825227235,
+          7.23651855088283
+        ],
+        "random_expected_gap": 0.4101523962356152,
+        "oracle_index": 5,
+        "critic_mean": {
+          "picked": 5,
+          "gap": 0.0
+        },
+        "fqe": {
+          "picked": 2,
+          "gap": 0.7990570542986849
+        },
+        "pdis": {
+          "picked": 4,
+          "gap": 0.40311438506569075
+        }
+      }
+    },
+    "critic_mean": {
+      "mean_gap": 0.0,
+      "mean_random_gap": 0.4101523962356152,
+      "beats_random_by": 0.4101523962356152,
+      "seed_gap_sem": NaN,
+      "useful": true
+    },
+    "fqe": {
+      "mean_gap": 0.7990570542986849,
+      "mean_random_gap": 0.4101523962356152,
+      "beats_random_by": -0.3889046580630697,
+      "seed_gap_sem": NaN,
+      "useful": false
+    },
+    "pdis": {
+      "mean_gap": 0.40311438506569075,
+      "mean_random_gap": 0.4101523962356152,
+      "beats_random_by": 0.007038011169924474,
+      "seed_gap_sem": NaN,
+      "useful": true
+    }
+  }
+}

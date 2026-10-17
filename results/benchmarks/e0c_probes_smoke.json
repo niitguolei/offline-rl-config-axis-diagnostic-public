@@ -1,0 +1,129 @@
+{
+  "probes": [
+    {
+      "env": "halfcheetah_medium_replay-v2",
+      "fraction": 0.01,
+      "n_data": 2000,
+      "steps": 2000,
+      "checkpoints": [
+        666,
+        1333,
+        2000
+      ],
+      "rows": [
+        {
+          "step": 666,
+          "raw_mean": -130.23778564513952,
+          "raw_sem": 2.2801091034436407,
+          "score_mean": 1.2077245758799855,
+          "score_sem": 0.01836549527055083,
+          "raw_returns": [
+            -133.54160759495437,
+            -125.86369485182169,
+            -131.30805448864248
+          ]
+        },
+        {
+          "step": 1333,
+          "raw_mean": 1461.613205848548,
+          "raw_sem": 1587.3114739917623,
+          "score_mean": 14.029537274029076,
+          "score_sem": 12.785248444672682,
+          "raw_returns": [
+            -129.28078550691004,
+            4636.233456587692,
+            -122.11305353513798
+          ]
+        },
+        {
+          "step": 2000,
+          "raw_mean": 1431.0838122826865,
+          "raw_sem": 1563.3614828351795,
+          "score_mean": 13.783633500257984,
+          "score_sem": 12.592339496301896,
+          "raw_returns": [
+            -138.3271357037321,
+            4557.798965011898,
+            -126.22039246010611
+          ]
+        }
+      ],
+      "score_sem_mean": 8.46531781208171,
+      "triviality": {
+        "last_gap": 0.017527575497896075,
+        "random_expected_gap": 0.31048105190921305,
+        "naive_step_spearman": 0.5,
+        "gap_leg": false,
+        "peak_size": 0.24590377377109185,
+        "monotonicity_leg": "no_significant_peak",
+        "gap_threshold": 0.05,
+        "trivial": true,
+        "verdict": "TRIVIAL: a free rule is within the noise"
+      }
+    },
+    {
+      "env": "walker2d_medium_replay-v2",
+      "fraction": 0.05,
+      "seed": 0,
+      "n_data": 13942,
+      "steps": 2000,
+      "checkpoints": [
+        666,
+        1333,
+        2000
+      ],
+      "rows": [
+        {
+          "step": 666,
+          "raw_mean": 243.8130963947666,
+          "raw_sem": 6.773902585849243,
+          "score_mean": 5.275570582531665,
+          "score_sem": 0.14755800617499895,
+          "raw_returns": [
+            243.53554977087356,
+            255.6821508044277,
+            232.2215886089986
+          ]
+        },
+        {
+          "step": 1333,
+          "raw_mean": 242.62034960964397,
+          "raw_sem": 4.9684387360688165,
+          "score_mean": 5.249588611983107,
+          "score_sem": 0.10822903110955108,
+          "raw_returns": [
+            247.11683103468437,
+            248.04624673260125,
+            232.69797106164626
+          ]
+        },
+        {
+          "step": 2000,
+          "raw_mean": 246.94695612781115,
+          "raw_sem": 4.4970511248930976,
+          "score_mean": 5.343836414226113,
+          "score_sem": 0.09796064960285662,
+          "raw_returns": [
+            248.48524975148325,
+            253.85215919106122,
+            238.503459440889
+          ]
+        }
+      ],
+      "score_sem_mean": 0.11791589562913556,
+      "triviality": {
+        "last_gap": 0.0,
+        "random_expected_gap": 0.010137138773236557,
+        "naive_step_spearman": 0.5,
+        "gap_leg": false,
+        "peak_size": 0.025981970548557776,
+        "peak_relative": 0.004862044519063079,
+        "min_rel_effect": 0.02,
+        "monotonicity_leg": "no_significant_peak",
+        "gap_threshold": 0.05,
+        "trivial": true,
+        "verdict": "TRIVIAL: a free rule is within the noise"
+      }
+    }
+  ]
+}

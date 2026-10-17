@@ -1,0 +1,228 @@
+{
+  "matched_contrast": {
+    "hopper": {
+      "axis": "tau",
+      "per_seed": {
+        "0": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          "differences": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "mean_difference": 2.0
+        },
+        "1": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "differences": [
+            0.5,
+            1.5,
+            1.5
+          ],
+          "mean_difference": 1.1666666666666667
+        },
+        "2": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            -1.0,
+            1.0,
+            -0.5
+          ],
+          "differences": [
+            2.0,
+            0.0,
+            1.5
+          ],
+          "mean_difference": 1.1666666666666667
+        }
+      },
+      "slice_level_mean_difference": 1.4444444444444444,
+      "slice_level_paired_p": 0.0003363538329563212,
+      "seed_clustered_mean_difference": 1.4444444444444446,
+      "seed_clustered_p": 0.03504949526723285,
+      "seed_clustered_n": 3
+    },
+    "walker2d": {
+      "axis": "tau",
+      "per_seed": {
+        "0": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            -0.5,
+            -0.5,
+            -1.0
+          ],
+          "differences": [
+            1.5,
+            1.5,
+            2.0
+          ],
+          "mean_difference": 1.6666666666666667
+        },
+        "1": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            -1.0,
+            -1.0,
+            0.5
+          ],
+          "differences": [
+            2.0,
+            2.0,
+            0.5
+          ],
+          "mean_difference": 1.5
+        },
+        "2": {
+          "critic_corr": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fqe_corr": [
+            -0.5,
+            -0.5,
+            -1.0
+          ],
+          "differences": [
+            1.5,
+            1.5,
+            2.0
+          ],
+          "mean_difference": 1.6666666666666667
+        }
+      },
+      "slice_level_mean_difference": 1.6111111111111112,
+      "slice_level_paired_p": 8.832138793739959e-06,
+      "seed_clustered_mean_difference": 1.6111111111111114,
+      "seed_clustered_p": 0.001186944038478562,
+      "seed_clustered_n": 3
+    }
+  },
+  "variance_decomposition": {
+    "hopper_critic": {
+      "pooled": {
+        "tau": 0.9819981524171773,
+        "lr": 0.009957213000533538,
+        "seed": 1.1189215775586625e-05
+      },
+      "per_seed": {
+        "0": {
+          "tau": 0.9814553877881157,
+          "lr": 0.010498294161577326
+        },
+        "1": {
+          "tau": 0.9794744619458173,
+          "lr": 0.012312291214893523
+        },
+        "2": {
+          "tau": 0.9854676194977903,
+          "lr": 0.007447093094240298
+        }
+      }
+    },
+    "hopper_fqe": {
+      "pooled": {
+        "tau": 0.10001460237839865,
+        "lr": 0.06688505396905653,
+        "seed": 0.5768284369527834
+      },
+      "per_seed": {
+        "0": {
+          "tau": 0.655288047661625,
+          "lr": 0.07116032437582931
+        },
+        "1": {
+          "tau": 0.10488926951922117,
+          "lr": 0.3670270434014181
+        },
+        "2": {
+          "tau": 0.05734405009284882,
+          "lr": 0.6058180090836972
+        }
+      }
+    }
+  },
+  "c_settings": {
+    "base": {
+      "tau_r2": 0.655288047661625,
+      "lr_r2": 0.07116032437582931,
+      "slice_corr_tau": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "selected_index": 6,
+      "selected_true_rank": 1
+    },
+    "mse": {
+      "tau_r2": 0.35847205748298405,
+      "lr_r2": 0.09635188571637421,
+      "slice_corr_tau": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selected_index": 7,
+      "selected_true_rank": 6
+    },
+    "long_slow": {
+      "tau_r2": 0.5266665358538113,
+      "lr_r2": 0.039381421468478894,
+      "slice_corr_tau": [
+        -0.5,
+        -1.0,
+        -0.5
+      ],
+      "selected_index": 7,
+      "selected_true_rank": 6
+    }
+  },
+  "am_probe": {
+    "tau_r2": 0.9357297307078992,
+    "lr_r2": 0.026109564985170808,
+    "spearman_truth": -0.7666666666666667,
+    "selected_true_rank": 8
+  },
+  "taxonomy_upgrade": {
+    "conditions": [
+      "independent of the compared axis",
+      "tracks quality within the run",
+      "stable across the estimator's own hyperparameters"
+    ],
+    "critic": "fails condition 1; may satisfy 2/3 depending on arm",
+    "fqe": "condition 1 is seed/setting dependent; condition 3 fails",
+    "am": "fails condition 1 and condition 2 in the registered design",
+    "gap_four": "still empty"
+  }
+}

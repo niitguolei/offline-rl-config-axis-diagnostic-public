@@ -1,0 +1,98 @@
+{
+  "env": "halfcheetah_medium_replay-v2",
+  "probe": 1500,
+  "rows": [
+    {
+      "name": "base",
+      "n": 202000,
+      "n_episodes": 202,
+      "mean_fragment_len": 0.0,
+      "empty_ball_ratio": 1.0,
+      "removed_out_of_support": 0.0,
+      "action_support_ratio": 1.0
+    },
+    {
+      "name": "sub_ep_10pct",
+      "n": 20000,
+      "n_episodes": 20,
+      "mean_fragment_len": 1000.0,
+      "empty_ball_ratio": 0.9456226033598681,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 0.9793670784159167
+    },
+    {
+      "name": "sub_ep_1pct",
+      "n": 2000,
+      "n_episodes": 2,
+      "mean_fragment_len": 1000.0,
+      "empty_ball_ratio": 0.778386691810248,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 0.958855325819332
+    },
+    {
+      "name": "state_ball_30pct",
+      "n": 141400,
+      "n_episodes": 23311,
+      "mean_fragment_len": 6.065805842735189,
+      "empty_ball_ratio": 2.407545832882888,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 1.0196345447912742
+    },
+    {
+      "name": "state_band_30pct",
+      "n": 141400,
+      "n_episodes": 45179,
+      "mean_fragment_len": 3.1297726819982734,
+      "empty_ball_ratio": 1.2908422737335865,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 0.9620211265435626
+    },
+    {
+      "name": "state_tail_30pct",
+      "n": 141400,
+      "n_episodes": 26678,
+      "mean_fragment_len": 5.300247394857186,
+      "empty_ball_ratio": 1.0,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 1.0249847669012846
+    },
+    {
+      "name": "action_gap_30pct",
+      "n": 60600,
+      "n_episodes": 44400,
+      "mean_fragment_len": 1.364864864864865,
+      "empty_ball_ratio": 0.9420443902702806,
+      "removed_out_of_support": 1.0,
+      "action_support_ratio": 0.5761059030866781
+    }
+  ],
+  "checks": [
+    {
+      "label": "state_ball: empty-ball ratio \u2265 2.0",
+      "pass": true,
+      "value": 2.407545832882888
+    },
+    {
+      "label": "state_ball: removed mass out of support \u2265 0.5",
+      "pass": true,
+      "value": 1.0
+    },
+    {
+      "label": "state_ball: action support \u2265 0.70",
+      "pass": true,
+      "value": 1.0196345447912742
+    },
+    {
+      "label": "action_gap: action support \u2264 0.80",
+      "pass": true,
+      "value": 0.5761059030866781
+    },
+    {
+      "label": "action_gap: empty-ball ratio \u2264 1.5",
+      "pass": true,
+      "value": 0.9420443902702806
+    }
+  ],
+  "separable": true,
+  "elapsed_min": 0.024272553333382043
+}

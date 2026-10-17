@@ -1,0 +1,56 @@
+{
+  "env": "hopper_medium_replay-v2",
+  "n_runs": 9,
+  "settings": [
+    "base",
+    "mse",
+    "long_slow"
+  ],
+  "pairwise_spearman": {
+    "base|mse": 0.6833333333333333,
+    "base|long_slow": 0.65,
+    "mse|long_slow": 0.6333333333333333
+  },
+  "per_setting": {
+    "base": {
+      "slice_corr_tau": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "selected_index": 6,
+      "selected_true_rank": 1,
+      "selected_gap": 0.0,
+      "random_expected_gap": 0.2591993624858908
+    },
+    "mse": {
+      "slice_corr_tau": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "selected_index": 7,
+      "selected_true_rank": 6,
+      "selected_gap": 0.3184197733923476,
+      "random_expected_gap": 0.2591993624858908
+    },
+    "long_slow": {
+      "slice_corr_tau": [
+        -0.5,
+        -1.0,
+        -0.5
+      ],
+      "selected_index": 7,
+      "selected_true_rank": 6,
+      "selected_gap": 0.3184197733923476,
+      "random_expected_gap": 0.2591993624858908
+    }
+  },
+  "selected_configs": {
+    "base": 6,
+    "mse": 7,
+    "long_slow": 7
+  },
+  "fqe_sensitivity_unstable": true,
+  "disposition": "limit the FQE claim to the primary setting"
+}

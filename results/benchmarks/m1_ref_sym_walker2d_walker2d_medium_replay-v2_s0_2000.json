@@ -1,0 +1,104 @@
+{
+  "env": "walker2d_medium_replay-v2",
+  "mode": "ref_sym",
+  "seed": 0,
+  "steps": 2000,
+  "args": {
+    "env": "walker2d_medium_replay-v2",
+    "mode": "ref_sym",
+    "sym_normer": "default",
+    "steps": 2000,
+    "every": 500,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "tau": 0.7,
+    "beta": 3.0,
+    "alpha": 0.005,
+    "discount": 0.99,
+    "fixed_n": 1,
+    "n_min": 1,
+    "n_max": 10,
+    "tie_policy": false,
+    "seed": 0,
+    "eval_episodes": 2,
+    "smoke": true,
+    "tag": null
+  },
+  "eval": {
+    "raw_mean": 257.17010189468783,
+    "raw_std": 3.577141693695694,
+    "score_mean": 5.566530346871084
+  },
+  "curve": [
+    {
+      "step": 500,
+      "V": 1.2384716272354126,
+      "Q": 1.2233586311340332,
+      "q_loss": 0.01139753870666027,
+      "v_loss": 0.0019738650880753994,
+      "actor_loss": 5.18385124206543,
+      "ms_per_step": 10.511397400012356,
+      "eq_V": NaN,
+      "eq_Q": NaN,
+      "eq_pi": NaN
+    },
+    {
+      "step": 1000,
+      "V": 2.563826560974121,
+      "Q": 2.543482780456543,
+      "q_loss": 0.029069989919662476,
+      "v_loss": 0.008430970832705498,
+      "actor_loss": 5.569369316101074,
+      "ms_per_step": 9.746037200005958,
+      "eq_V": NaN,
+      "eq_Q": NaN,
+      "eq_pi": NaN
+    },
+    {
+      "step": 1500,
+      "V": 3.9037294387817383,
+      "Q": 3.8903064727783203,
+      "q_loss": 0.04210692644119263,
+      "v_loss": 0.015426263213157654,
+      "actor_loss": 5.081597805023193,
+      "ms_per_step": 9.362157200002306,
+      "eq_V": NaN,
+      "eq_Q": NaN,
+      "eq_pi": NaN
+    },
+    {
+      "step": 2000,
+      "V": 5.265649795532227,
+      "Q": 5.2262468338012695,
+      "q_loss": 0.07437671720981598,
+      "v_loss": 0.013809839263558388,
+      "actor_loss": 4.730427265167236,
+      "ms_per_step": 9.097617800001899,
+      "eq_V": NaN,
+      "eq_Q": NaN,
+      "eq_pi": NaN
+    }
+  ],
+  "train_min": 0.30326289999999667,
+  "ms_per_step": 9.097617800001899,
+  "boundary_frac": 0.003619205298013245,
+  "normaliser_symmetrised": true,
+  "data_asymmetry": {
+    "max_scale_asymmetry": 0.6473454415509906,
+    "mean_scale_asymmetry": 0.14737639426284,
+    "max_offset_asymmetry": 0.7438920400090144,
+    "mean_offset_asymmetry": 0.22303324952319714
+  },
+  "normaliser_commutation": {
+    "max_abs_residual_std": 0.0,
+    "mean_abs_residual_std": 0.0
+  },
+  "mirror": {
+    "domain": "walker2d"
+  },
+  "n_policy": null,
+  "ret_range": [
+    -50.19683612603694,
+    4132.000586617971
+  ]
+}

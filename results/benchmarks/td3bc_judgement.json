@@ -1,0 +1,26 @@
+{
+  "n_runs": 27,
+  "p1": {
+    "exact": 9,
+    "slices": 9,
+    "correlations": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "holds": false
+  },
+  "p2": {
+    "alpha_r2": 0.9390090904961161,
+    "lr_r2": 0.04366448464781847,
+    "seed_r2": 9.221579199125696e-05,
+    "holds": false
+  },
+  "verdict": "NEITHER HOLDS: the inheritance claim is FALSIFIED -- the indirect path is enough for the critic to inherit the knob. The mechanism must fall back to 'the critic is a function of the configuration' and the 'decided by the training objective' wording must be removed"
+}

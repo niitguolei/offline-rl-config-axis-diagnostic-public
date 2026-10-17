@@ -1,0 +1,42 @@
+{
+  "action": {
+    "critic_mean": {
+      "spearman": -0.9999999999999999,
+      "oracle_gap": 0.004068926293068986,
+      "rel_bias_vs_mc_det": 6.030267973001411
+    },
+    "fqe": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 13.533904810513976
+    },
+    "pdis_clip2.0": {
+      "spearman": -0.9999999999999999,
+      "oracle_gap": 0.004068926293068986
+    },
+    "wis_clip0.5": {
+      "spearman": NaN,
+      "oracle_gap": 0.0
+    }
+  },
+  "ball": {
+    "critic_mean": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 6.509388812716538
+    },
+    "fqe": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0,
+      "rel_bias_vs_mc_det": 19.100751128866964
+    },
+    "pdis_clip2.0": {
+      "spearman": 0.9999999999999999,
+      "oracle_gap": 0.0
+    },
+    "wis_clip0.5": {
+      "spearman": -0.9999999999999999,
+      "oracle_gap": 0.00616296953600215
+    }
+  }
+}
